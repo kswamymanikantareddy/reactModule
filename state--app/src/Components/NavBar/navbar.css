@@ -1,0 +1,55 @@
+.container{
+    height: 50px;
+    width: 100%;
+}
+.containerwrapper{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.topleft:active{
+color: blue;
+}
+a {
+    margin-left: 10px;
+    padding: 20px;
+}
+.topright{
+    margin-right: 250px;
+}
+.table{
+    border-spacing: 20px;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+}
+td{
+   text-align: center;
+   vertical-align: middle;
+  
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+.image{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    object-fit: cover;
+}
+.text1{
+    font-size:15px ;
+    margin:5px;
+ 
+}
+.text2{
+    font-size: 9px;
+    margin: 5px;
+}
+th,td{
+    border-bottom: 1px solid #ddd;
+    padding: 20px;
+}

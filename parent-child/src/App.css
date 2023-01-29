@@ -1,0 +1,70 @@
+*{
+    margin: 0px;
+}
+
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.MuiCard-root.css-1ymnecy-MuiPaper-root-MuiCard-root {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Button{
+    padding: 10px;
+    background-color: #0052FF;
+    color: white;
+    height: 42px;
+    width: 479px;
+    left: 24px;
+    top: 106px;
+    border-radius: 4px;
+    padding: 0px 16px 0px 16px;
+border: none;    
+
+}
+
+
+.wrap{
+    display: flex;
+    align-items: center;
+    margin: 0px;
+}
+.container{
+    padding: 0px 10px;
+}
+h1{
+    margin: 0;
+    
+font-family: Graphik;
+font-size: 16px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0.01em;
+text-align: left;
+
+}
+h4{
+    padding-bottom:5px;
+    color: #7D7D89;
+    margin: 0;
+font-family: Graphik;
+font-size: 16px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0.01em;
+text-align: left;
+
+}
+.line{
+    display: flex;
+    padding: 0 19px;
+    font-size: 8px;
+    margin: 0px;
+}
+.style{
+    display: flex;
+    flex-direction: column;
+}
+.box2{
+    position: relative;
+    padding:0px 20px;
+}

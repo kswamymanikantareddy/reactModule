@@ -1,0 +1,10 @@
+.container--class{
+    display: inline-flex;
+    position: absolute;
+    top: 385px;
+    left: 15px;
+}
+.span--class{
+    margin: auto;
+    padding: 2px 5px;
+}

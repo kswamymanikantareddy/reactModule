@@ -1,0 +1,12 @@
+.navul{
+    display: flex;
+    flex: 1;
+    float: right;
+    
+    justify-content: space-evenly;
+    list-style-type: none;
+  
+}
+li{
+    padding: 10px 70px;
+}
