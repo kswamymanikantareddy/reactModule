@@ -6,7 +6,7 @@ import { Image } from "../Atoms/Image";
 import { Button } from "../Atoms/Button";
 import { Container, Wrapper } from "../Molecules/Molecule";
 import { Avatar } from "@mui/material";
-import { Text1, Text2 } from "../Molecules/Molecule";
+import { Text1 , Text2 } from "../Molecules/Molecule";
 
 const Organism = () => {
   return (

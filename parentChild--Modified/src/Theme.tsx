@@ -1,6 +1,6 @@
 import { createTheme } from "@mui/system";
 
-const theme = createTheme({
+export const Theme = createTheme({
   palette: {
     primaryColors: {
       colorOne: "#FAFCFF",
