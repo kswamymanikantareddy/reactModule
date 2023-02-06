@@ -1,0 +1,10 @@
+
+
+.body{
+    height: calc(100%-50px);
+   position: sticky;
+}
+th,td{
+  
+    border: none;
+}

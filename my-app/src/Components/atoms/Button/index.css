@@ -1,0 +1,162 @@
+.storybook-button--btnOne{
+  width: 86px;
+height: 38px;
+background: rgba(247, 147, 26, 0.2);
+border: 2px solid #F7931A;
+border-radius: 4px;
+font-family: 'Graphik';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+color: #343446;
+
+}
+
+.storybook-button--btnTwo{
+  width: 63px;
+  height: 38px;
+  background: rgba(34, 34, 34, 0.2);
+  border-radius: 4px;
+  border: none;
+  font-family: 'Graphik';
+  font-style: normal;
+  font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+color: #343446;
+
+}
+.storybook-button--btnThree{
+  width: 99px;
+height: 38px;
+background: rgba(230, 0, 122, 0.2);
+border-radius: 4px;
+border: none;
+font-family: 'Graphik';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+color: #343446;
+
+}
+.storybook-button--btnFour{
+width: 106px;
+height: 38px;
+background: rgba(98, 126, 234, 0.2);
+border-radius: 4px;
+border: none;
+font-family: 'Graphik';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+color: #343446;
+
+}
+.storybook-button--btnFive{
+  width: 81px;
+height: 38px;
+background: rgba(38, 161, 123, 0.2);
+border-radius: 4px;
+border: none;
+font-family: 'Graphik';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+color: #343446;
+
+}
+.storybook-button--btnSix{
+width: 119px;
+height: 38px;
+background: rgba(25, 25, 113, 0.2);
+border-radius: 4px;
+border: none;
+font-family: 'Graphik';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+color: #343446;
+
+}
+.storybook-button--btnSeven{
+width: 123px;
+height: 38px;
+background: rgba(219, 201, 132, 0.2);
+border-radius: 4px;
+border: none;
+font-family: 'Graphik';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+color: #343446;
+
+}
+
+
+.button{
+  width: 86px;
+height: 38px;
+background-color: blue;
+border: none;
+border-radius: 4px;
+font-family: 'Graphik';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+color: #343446;
+}
+.orange{
+  background: rgba(247, 147, 26, 0.2);
+}
+.orange:hover{
+  border: 2px solid #F7931A;
+}
+.grey{
+  background: rgba(34, 34, 34, 0.2);
+  width: 63px;
+  height: 38px;
+}
+.grey:hover{
+  border: 2px solid #F7931A;
+}
+.pink{
+  background: rgba(230, 0, 122, 0.2);
+}
+.pink:hover{
+  border: 2px solid #F7931A;
+}
+.lightgrey{
+  background: rgba(98, 126, 234, 0.2);
+}
+.lightgrey:hover{
+  border: 2px solid #F7931A;
+}
+.blue{
+  background: rgba(38, 161, 123, 0.2);
+}
+.blue:hover{
+  border: 2px solid #F7931A;
+}
+.drakgrey{
+  background: rgba(25, 25, 113, 0.2);
+  width: 119px;
+height: 38px;
+}
+.drakgrey:hover{
+  border: 2px solid #F7931A;
+}
+.beige{
+  background: rgba(219, 201, 132, 0.2);
+  width: 123px;
+height: 38px;
+}
+.beige:hover{
+  border: 2px solid #F7931A;
+}
