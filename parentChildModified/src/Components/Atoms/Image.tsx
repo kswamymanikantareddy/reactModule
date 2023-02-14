@@ -14,7 +14,7 @@ interface Props{
     url:string,
 }
 
-export const Img = ({url}:Props) => {
+export const Img = ({url}:Props) =>{
   return (
    <img src={url} alt="" />
   )

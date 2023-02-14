@@ -1,15 +1,18 @@
-import React from 'react';
-import './App.css';
-import Organism from './Components/Organism/Organism';
+import React from "react";
+import "./App.css";
+import theme from "./Theme";
+import { StyledEngineProvider, ThemeProvider } from "@mui/material";
+import OrderCard from "./components/organisms/OrderCard";
 
 function App() {
   return (
-   <>
-
-<Organism/>
-  
-   
-   </>
+    <>
+      <StyledEngineProvider injectFirst>
+        <ThemeProvider theme={theme}>
+          <OrderCard />
+        </ThemeProvider>
+      </StyledEngineProvider>
+    </>
   );
 }
 

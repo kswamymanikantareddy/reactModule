@@ -1,22 +1,17 @@
-import {Routes,Route} from 'react-router-dom'
+import { StyledEngineProvider, ThemeProvider } from '@mui/material';
 import './App.css';
 import CryptoTable from './components/organisms/AllAssests/CryptoTable';
-// import Header from './pages/Navigation/Header';
-// import CryptoTable from './components/organisms/AllAssests/CryptoTable';
-// import Watchlist from './components/organisms/Watchlist/index';
-
-
-
+import Theme from './Theme';
 
 function App() {
   return (
     <>
-  {/* <Header/>
-  <Routes>
-      <Route path='/' element={<CryptoTable/>}/>
-      <Route path='Watchlist' element={<Watchlist/>}/>
-    </Routes> */}
+    <StyledEngineProvider injectFirst>
+      <ThemeProvider theme={Theme}>
   <CryptoTable/>
+  </ThemeProvider>
+  </StyledEngineProvider>
+  
     </>
 
   );

@@ -6,8 +6,10 @@ import styled from 'styled-components'
 export const Container = styled.div`
 display: flex;
 align-items: center;
+background-color: #FFFFFF;
 `
 export const Wrapper = styled.div`
+  margin: 0px 9px;
 
 `
 export const t1 = styled.div`
@@ -33,7 +35,7 @@ const AvatarMolecule = ({url,variant1,variant2,children2,children1}:Props) => {
     <Avatar url={url} alt='not found'/>
     <Wrapper>
     <Typography variant={variant1}>{children1}</Typography>
-    <Typography variant={variant2}>{children2}</Typography>
+    <Typography  variant={variant2}>{children2}</Typography>
     </Wrapper>
     </Container>
     </>

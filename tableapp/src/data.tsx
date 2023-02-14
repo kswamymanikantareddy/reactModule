@@ -6,7 +6,7 @@ export const data = [
     "change":"+1.06%",
     "marketcap":"$60.1T",
     'image':'./assests/1.png',
-   'isWatchlisted':true
+   'isWatchlisted':false
     },
     {"id":2,
     "text1":"Etherum",
@@ -15,7 +15,7 @@ export const data = [
     "change":"-5.49%",
     "marketcap":"$25.4T",
     'image':'./assests/2.png',
-    'isWatchlisted':true
+    'isWatchlisted':false
     },
     {"id":3,
     "text1":"Etherum 2",

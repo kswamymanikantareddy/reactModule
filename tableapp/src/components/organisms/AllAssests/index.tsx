@@ -1,10 +1,10 @@
 import TableCell from "../../atoms/Typography/index";
 import AvatarMolecule from "../../molecules/AvatarMolecule/index";
+import Box from "@mui/material/Box";
+import './index.css'
 import StarBorderIcon from "@mui/icons-material/StarBorder";
 import StarIcon from "@mui/icons-material/Star";
-import { useState } from "react";
-import { ReactElement } from "react";
-
+import { cardType1 } from "./CryptoTable";
 const CryptoCard = ({
   url,
   variant1,
@@ -18,48 +18,81 @@ const CryptoCard = ({
   variantC2,
   variantC3,
   onClick,
-  item
-}: any) => {
-  const [icon, setIcon] = useState<ReactElement>(<StarBorderIcon />);
-  const [star, setStar] = useState<boolean>(false);
-
-  const handleClick = () => {
-    if (star) {
-      setIcon(<StarBorderIcon />);
-      setStar(false);
-    } else {
-      setIcon(<StarIcon />);
-      setStar(true);
-    }
-  };
+  item,
+}: cardType1) => {
   return (
     <>
-      <table>
-        <tr>
-          <td>
-            <AvatarMolecule
-              url={url}
-              variant1={variant1}
-              variant2={variant2}
-              children1={children1}
-              children2={children2}
-            />
-          </td>
-          <td>
-            <TableCell variant={variantC1} children={childrenC1} />
-          </td>
-          <td>
-            <TableCell variant={variantC2} children={childrenC2} />
-          </td>
+      <Box
+        sx={{
+          display: "flex",
+          flexDirection: "row",
+          alignItems: "center",
+          py: 1.5,
+          px: 1.5,
+          width: 1239,
+          height: 74,
+          bgcolor: "#FFFFFF",
+          border: "1px solid #E8E8F7",
+          borderRadius: 1,
+          mb:1.5
+        }}
+      >
+        <Box
+          sx={{
+            width: 300,
+            height: 42,
 
-          <td>
-            <TableCell variant={variantC3} children={childrenC3} />
-          </td>
+          }}
+        >
+          <AvatarMolecule
+            url={url}
+            variant1={variant1}
+            variant2={variant2}
+            children1={children1}
+            children2={children2}
+          />
+        </Box>
+        <Box
+          sx={{
+            width: 300,
+            height: 42,
+          }}
+        >
+          <TableCell variant={variantC1} children={childrenC1} />
+        </Box>
+        <Box
+          sx={{
+            width: 300,
+            height: 42,
+          }}
+        >
+          <TableCell variant={variantC2} children={childrenC2} />
+        </Box>
+        <Box
+          sx={{
+            width: 300,
+            height: 42,
+          }}
+        >
+          <TableCell variant={variantC3} children={childrenC3} />
+        </Box>
+        <Box
+          sx={{
+            width: 300,
+            height: 42,
+          }}
+        >
           <span onClick={onClick}>
-            <td onClick={handleClick}>{icon}</td>
+            {item.Watchlist ? (
+              <StarBorderIcon />
+            ) : item.isWatchlisted === true ? (
+              <StarIcon />
+            ) : (
+              <StarBorderIcon />
+            )}
           </span>
-        </tr>
-      </table>
+        </Box>
+      </Box>
     </>
   );
 };
